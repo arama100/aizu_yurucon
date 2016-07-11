@@ -7,7 +7,9 @@ body {
 #about {
   background-color: #FFFFFF; }
   #about img {
-    margin: 20px 0; }
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto; }
 
 #requirement {
   background-color: #FFF8DC; }
@@ -42,6 +44,10 @@ body {
   width: 100%; }
   @media screen and (max-width: 768px) {
     #footer {
-      position: relative; } }
+      position: relative;
+      height: initial; } }
   #footer p {
     padding: 10px 0 0; }
+    @media screen and (max-width: 768px) {
+      #footer p {
+        margin: 0 0; } }
