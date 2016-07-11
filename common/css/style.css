@@ -1,1 +1,47 @@
-aa
+body {
+  font-family: 'Noto Sans Japanese', sans-serif; }
+
+#top {
+  background-color: #FFDEAD; }
+
+#about {
+  background-color: #FFFFFF; }
+  #about img {
+    margin: 20px 0; }
+
+#requirement {
+  background-color: #FFF8DC; }
+
+#contact {
+  background-color: #FFDAB9; }
+
+.content {
+  text-align: center; }
+
+.navbar-toggle {
+  border: 1px solid white;
+  margin-top: 15px; }
+  .navbar-toggle .icon-bar {
+    background-color: white; }
+
+.nav li a {
+  color: #333; }
+
+.nav li a:hover {
+  background-color: transparent; }
+
+#footer {
+  background-color: black;
+  bottom: 0;
+  color: white;
+  height: 40px;
+  left: 0;
+  margin: 0;
+  right: 0;
+  text-align: center;
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    #footer {
+      position: relative; } }
+  #footer p {
+    padding: 10px 0 0; }
